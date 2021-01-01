@@ -1,11 +1,11 @@
 repos:
   - repo: https://github.com/Trim21/pre-commit-hooks
-    rev: c37e29c1e823c5ce25cac879a0aa7fd63d387c25  # frozen: v0.0.1
+    rev: 5685ac183889dcafd0ea6c9dc3df211274554ec2  # frozen: v0.2.2
     hooks:
       - id: yamlfmt
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: e1668fe86af3810fbca72b8653fe478e66a0afdc  # frozen: v3.2.0
+    rev: 6e2418c5521b7d606e72914dced3253f9ace1205  # frozen: v3.4.0
     hooks:
       - id: check-case-conflict
       - id: check-ast
@@ -35,7 +35,7 @@ repos:
         args: [--remove]
 
   - repo: https://github.com/asottile/pyupgrade
-    rev: f766c29ec4bb6cf2674b81959871e59d5400380a  # frozen: v2.7.2
+    rev: 928901205243fe52292052b8b0757d93f174d5e8  # frozen: v2.7.4
     hooks:
       - id: pyupgrade
         args: [--py36-plus]
@@ -52,7 +52,7 @@ repos:
       - id: poetry-check-lock
 
   - repo: https://github.com/timothycrosley/isort
-    rev: 2e02c195afdb499be9068ca0d08c9d7d45912d4d  # frozen: 5.5.4
+    rev: 473d150c1db60f4614a574e30993e9e0d3ca0cce  # frozen: 5.7.0
     hooks:
       - id: isort
 
